@@ -202,4 +202,4 @@ If today's lesson finishes early, guide students to codecademy.org and click on 
 
 Preview tomorrow: 
 
-Tomorrow, you will add functionality so that users can also post status updates as long as the are less than 140 characters. You will also add links on the top of your page so that a person can click to get somewhere else in the app without having to type in a new web address. 
+Tomorrow, you will add functionality so that users can also post status updates as long as the are less than 140 characters. You will also add links on the top of your page so that a person can click to get somewhere else in the app without having to type in a new web address. Finally, we'll add a little bit of design and color to our site so it doesn't look so awful. 
