@@ -170,12 +170,12 @@ Let's close out today by playing around with color and border for our status car
 
 Super ugly, right? Point students in the direction of [my favorite color site](http://colours.neilorangepeel.com/) to find a color that they like. Once they find it, they can replace `red` with the color they actually want. 
 
-Finally, let's modify the margin and border. Have students add to the previous CSS:
+Finally, let's modify the margin and border. Have students add to the previous CSS to center, create vertical space between statuses, and add a border:
 
 ```css
 .status-card {
   background-color: red;
-  margin-bottom: 10px;
+  margin: 10px auto 0;
   border: 2px solid blue;
 }
 ```
