@@ -22,4 +22,4 @@
 * Find three interesting facts about the creator of Rails.
 * ...ect.
 
-
+These questions could be worth points which can be redeemed for either tangible or non-tangible things. 
