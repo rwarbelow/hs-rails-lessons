@@ -145,7 +145,7 @@ Guide students to come up with the following:
 * the image might need a caption
 * we will want to know the date and time the user posted the image -- luckily, Rails will manage this for us
 
-Have students type `rails generate scaffold Image source:text caption:text user:references` and explain that `user:references` will make it so that the image belongs to a specific user.
+Have students type `rails generate scaffold Image source:text caption:text user:references` and explain that `user:references` will make it so that the image belongs to a specific user. If you want to talk about relationships (one-to-many) at this point, do so if you feel it is appropriate for the group's current level. 
 
 Once the scaffold generator is complete, have students type `rake db:migrate` to tell the computer we are ready to start accepting images. 
 

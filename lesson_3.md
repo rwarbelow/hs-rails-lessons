@@ -150,9 +150,27 @@ Have students change `@status` to `statuses_path`, like this:
   format.html { redirect_to statuses_path, notice: 'Status was successfully created.' }
 ```
 
+*Practice*:
+
+Right now, the image creation does something similar -- instead of taking the user back to all of the images, it takes the user to one particular image. Have students open up the `images_controller.rb` file and find the `def create` method. Ask students: "Can you think of what we need to change here? Do you see something similar to what we just changed?"
+
+Make sure that students change the redirect line to say:
+
+```ruby
+  format.html { redirect_to images_path, notice: 'Status was successfully created.' }
+```
+
 Then pose the question: What is weird about the order that the statuses are displayed in?
 
 Hopefully students say that the newest statuses should be at the top. We can fix that! Have them go to the file `status.rb` and add this line right between the current lines 1 and 2: 
+
+```ruby
+  default_scope { order(created_at: :desc) } 
+```
+
+*Practice*:
+
+Do the same thing to the `image.rb` file's ordering:
 
 ```ruby
   default_scope { order(created_at: :desc) } 
@@ -183,6 +201,15 @@ Finally, let's modify the margin and border. Have students add to the previous C
 Give students a few minutes to play around with the amount of margin, the width of the border, and the color of the border. They can also try `dashed` for the border instead of `solid`. 
 
 Once they have something they're happy with, they can trade with a partner and have them test out their app. 
+
+### Extra Time? 
+
+If today's lesson finishes early, here are some ideas: 
+
+* feel free to show students the `font-family` property
+* experiment with other CSS properties
+* guide students to codecademy.org and click on the Ruby track for practice
+* start on Day 4 lesson since there is quite a bit in there
 
 ### Close Out
 
