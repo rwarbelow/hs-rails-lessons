@@ -230,7 +230,7 @@ Have students create a footer div on the bottom of their `application.html.erb` 
 
 OR
 
-Show students how to create an extra page where they can add their name, a bio, and a photo. 
+Show students how to create an extra page where they can add their name, a bio, and a photo. *This is starting on tomorrow's lesson*
 
 Other ideas from yesterday: 
 

@@ -76,7 +76,7 @@ Also point out that now anywhere we go on our web app, we see these three links.
 
 ### Making Things Less Ugly
 
-I'm guessing that along the way, students have asked about how to make things less... ugly. We're going to use Bootstrap to make things a little nicer. 
+I'm guessing that along the way, students have asked about how to make things less... ugly. We're going to use Bootstrap to make things a little nicer. If you want to talk about what Bootstrap is and what it does, feel free. 
 
 Tell students to stay on application.html.erb and add this line above `stylesheet_link_tag` (line 7):
 
